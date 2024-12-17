@@ -7,5 +7,5 @@ This is a MERN stack Authentication Project where user🙂 can do this following
 Tech Stack use in this project are
 React Js, Tailwind css, Mongodb, Express Js and Node Js
 
-Project Demo👇👇👇👇
+Project Demo
 https://auth-project-4lq3.onrender.com
