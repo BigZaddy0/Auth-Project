@@ -1,11 +1,12 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import Input from "../components/input";
 import { useAuthStore } from '../store/authStore';
 import { Mail, Loader } from 'lucide-react';
 
 const ForgotPasswordPage = () => {
     const [email, setEmail] = useState("");
-    const [isSubmitted, setIsSubmitted] = useAuthStore();
+    const [isSubmitted, setIsSubmitted] = useState(false);
 
     const { isLoading, forgotPassword} = useAuthStore();
 
